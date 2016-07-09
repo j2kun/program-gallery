@@ -21,6 +21,7 @@ Limitations and tradeoffs require harmonious Balance.
 │   ├── dynamic_time_warp.py
 │   └── shuffle.py
 ├── randomized
+│   ├── blum_blum_shub.py
 │   ├── coins.py
 │   ├── primality.py
 │   └── unit_sphere.py
