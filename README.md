@@ -25,6 +25,8 @@ Limitations and tradeoffs require harmonious Balance.
 │   ├── coins.py
 │   ├── primality.py
 │   └── unit_sphere.py
+├── sorting
+│   └── bayesian_ranking.py
 ├── streaming
 │   ├── counting.py
 │   ├── majority.py
