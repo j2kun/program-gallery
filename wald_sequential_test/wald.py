@@ -1,4 +1,11 @@
 from math import log
+import random
+
+
+def biased_coin(p):
+    while True:
+        yield 1 if random.random() < p else -1
+
 
 def wald_sequential_test(lower, upper, sequence, error_tolerance=0.01):
     '''
