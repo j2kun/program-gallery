@@ -17,6 +17,8 @@ Limitations and tradeoffs require harmonious Balance.
 .
 ├── data_analysis
 │   └── principal_components.py
+├── geometry
+│   └── earthmover.py
 ├── lists_and_sequences
 │   ├── dynamic_time_warp.py
 │   └── shuffle.py
