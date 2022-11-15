@@ -21,6 +21,7 @@ Limitations and tradeoffs require harmonious Balance.
 │   └── earthmover.py
 ├── lists_and_sequences
 │   ├── dynamic_time_warp.py
+│   ├── poly_mul.py
 │   └── shuffle.py
 ├── randomized
 │   ├── blum_blum_shub.py
