@@ -17,7 +17,7 @@ def poly_mul(p1, p2):
     ff_p2 = fft(numpy.pad(p2, (0, next_power_of_2 - p2.shape[0])))
     product = ff_p1 * ff_p2
     inverted = ifft(product)
-    rounded = numpy.round(numpy.absolute(inverted)).astype(numpy.int32)
+    rounded = numpy.round(numpy.real(inverted)).astype(numpy.int32)
     return numpy.trim_zeros(rounded)
 
 
